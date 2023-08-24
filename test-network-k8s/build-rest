@@ -1,0 +1,4 @@
+kubectl config set-context --namespace test-network --current &&
+kubectl delete deploy fabric-rest-sample ||
+docker build -t localhost:5000/rest-api-typescript ~/fabric-samples/asset-transfer-basic/rest-api-typescript &&
+docker push localhost:5000/rest-api-typescript

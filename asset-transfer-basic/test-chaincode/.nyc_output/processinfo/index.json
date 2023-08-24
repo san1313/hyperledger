@@ -1,0 +1,1 @@
+{"processes":{"5d5b9a07-0add-4d59-bdbd-53b36f5fb423":{"parent":null,"children":[]},"fa7a3d65-a022-44de-956e-853513426225":{"parent":null,"children":[]}},"files":{"/home/san1313/fabric-samples/asset-transfer-basic/test-chaincode/src/index.ts":["5d5b9a07-0add-4d59-bdbd-53b36f5fb423"]},"externalIds":{}}

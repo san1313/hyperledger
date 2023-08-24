@@ -1,0 +1,7 @@
+./network kind &&
+./network cluster init &&
+./network up &&
+./network channel create &&
+./network chaincode deploy asset-transfer-basic ../asset-transfer-basic/test-chaincode &&
+./network chaincode invoke asset-transfer-basic '{"Args":["InitLedger"]}' &&
+./network rest-easy

@@ -1,0 +1,2 @@
+export pod=$(kubectl get pods | grep -n "org1peer1" | cut -d ' ' -f1 | cut -d ':' -f2) &&
+kubectl logs $pod
